@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 
 const MainComp = ({ data }: any) => {
     return (
-        <div className="relative w-full aspect-[16/9] ">
+        <div className="relative w-full aspect-[16/9] max-w-5xl">
             <Image
                 src="/assets/gojo.png"
                 alt=""
