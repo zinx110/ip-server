@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "axios": "^1.5.1",
     "browser-cookies": "^1.2.0",
+    "geoip-lite": "^1.4.7",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/geoip-lite": "^1.4.2",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
