@@ -31,7 +31,7 @@ const fetchLocation = async (ip: string): Promise<any> => {
 
 export default async function Home() {
     const ip = await headers().get("x-forwarded-for");
-    const data = await fetchLocation(ip);
+    const data = await fetchLocation(ip || "8.8.8.8");
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-between pt-24 p-5">
