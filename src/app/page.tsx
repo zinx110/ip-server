@@ -14,7 +14,7 @@ const fetchLocation = async (ip: string): Promise<any> => {
             format: "json",
         },
         headers: {
-            "X-RapidAPI-Key": process.env.NEXT_PUBLIC_GOOGLE_X_RAPID_API_Key,
+            "X-RapidAPI-Key": process.env.NEXT_PUBLIC_GOOGLE_X_RAPID_API_KEY,
             "X-RapidAPI-Host": process.env.NEXT_PUBLIC_GOOGLE_X_RAPID_API_HOST,
         },
     };
